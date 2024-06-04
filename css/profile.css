@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    background-attachment: scroll;
+}
+
+ul {
+    padding: 0px !important;
+}
+.Menu-principal {
+    width: 100%;
+    background-color: white;
+    height: 80px;
+
+}
+main {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+
+}
+.content {
+    margin: 0 auto;
+    width: 1200px;
+    float: none;
+    position: relative;
+    text-align: center;
+}
+.logo {
+    float: left;
+    padding: 15px;
+    width: 86%;
+}
+
+.social ul li {
+    margin-top: auto;
+    margin-left: 18px;
+    display: inline-block;
+    list-style: none;
+}
+
+.social {
+    width: 30%;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header-2 {
+    background-color: black;
+    width: 980px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.menu-urls {
+    height: 50px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    padding: 5px;
+    display: inline-block;
+    color: white;
+    margin-left: 40px;
+
+
+}
+
+.menu ul li:hover {
+    border-bottom: 5px solid #8b4513;
+    height: 17px;
+}
+
+.menu ul li a:hover {
+    color: saddlebrown;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.menu {
+    width: 100%;
+}
+.col-100 {
+    width: 100%;
+    float: none;
+    position: relative;
+    vertical-align: middle;
+    
+}
+.content img{
+    margin-top: 10%;
+    text-align: center;
+    float: none 0;
+    margin: none 0;
+    
+}
+.fadeIn {
+    animation: fadeIn 1s linear;
+}
+@keyframes fadeIn {
+    from{ opacity: 0;
+    }
+    to{ opacity: 1; 
+    }
+}
+.footer {
+    margin-top: 15%;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    text-align: center;
+    background-color: saddlebrown;
+    border-top: 3px solid white;
+}
+.col-4 {
+    margin-top: 50px;
+    align-items: center;
+    width: 33%;
+    display: inline-block;
+    margin-left: auto;
+    
+}
